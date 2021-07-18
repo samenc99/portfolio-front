@@ -7,11 +7,14 @@ export const Container = styled.header`
   align-items: center;
   justify-content: flex-end;
   padding-right: 30px;
-  background-image: linear-gradient(#000728, #00051d);
-  >nav{
+  //background-image: linear-gradient(#00051d, #00082b);
+  background-image: linear-gradient(#000310, #00051d);
+
+  > nav {
     display: flex;
     align-items: center;
   }
+
   position: sticky;
   top: 0;
 `
