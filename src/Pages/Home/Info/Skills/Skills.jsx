@@ -38,6 +38,26 @@ export const Skills = ()=>{
         <img src={ts} alt={'TypeScript'}/>
         <p>TypeScript</p>
       </Skill>
+      <Skill>
+        <img src={jest} alt={'Jest'}/>
+        <p>Jest</p>
+      </Skill>
+      <Skill>
+        <img src={mysql} alt={'MySql'}/>
+        <p>MySql</p>
+      </Skill>
+      <Skill>
+        <img src={aws} alt={'AWS'}/>
+        <p>AWS</p>
+      </Skill>
+      <Skill>
+        <img src={c} alt={'C'}/>
+        <p>C</p>
+      </Skill>
+      <Skill>
+        <img src={cpp} alt={'C++'}/>
+        <p>C++</p>
+      </Skill>
     </Content>
   )
 }

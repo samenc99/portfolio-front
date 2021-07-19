@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  height: 500px;
   background-image: linear-gradient(#00051d,#00082b);
   display: grid;
   grid-template-columns: 400px 1fr;
@@ -27,7 +26,7 @@ export const Photo = styled.img`
     width: 400px;
     height: 400px;
     
-    border: 2px solid black;
+    border: 4px solid black;
   }
   border-radius: 200px;
 `
