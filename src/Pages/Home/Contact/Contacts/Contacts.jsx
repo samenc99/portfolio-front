@@ -3,6 +3,7 @@ import linkedin from '../../../../assets/Contacts/linkedin.png'
 import telegram from '../../../../assets/Contacts/telegram.png'
 import github  from '../../../../assets/Contacts/github.png'
 import whatsapp from '../../../../assets/Contacts/wpp.png'
+import gmail from '../../../../assets/Contacts/gmail.png'
 
 export const Contacts = ()=>{
   return(
@@ -21,8 +22,11 @@ export const Contacts = ()=>{
         <a href={'https://t.me/samuel_enc'} target={'_blank'}>
           <Img src={telegram} alt={'telegram'}/>
         </a>
-        <a href={'https://web.whatsapp.com/send?phone=48988110866'} target={'_blank'}>
+        <a href={'https://web.whatsapp.com/send?phone=5548988110866'} target={'_blank'}>
           <Img src={whatsapp} alt={'whatsapp'} />
+        </a>
+        <a href={'mailto:mateus.enc@gmail.com?'} target={'_blank'}>
+          <Img src={gmail} alt={'gmail'} />
         </a>
       </DivImg>
     </Content>

@@ -6,15 +6,16 @@ export const Content = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 30px 1fr;
-  background-color: #C5C5C5;
+  background-color: #00082A;
+  box-shadow: 0 0 5px #00082A;
 `
 
 export const Title = styled.p`
   grid-column: 1/3;
-  border: 1px solid white;
+  border-bottom: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000312;
+  color: white;
   font-weight: bold;
 `

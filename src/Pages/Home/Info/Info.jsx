@@ -12,8 +12,8 @@ export const Info = ()=>{
       </Perfil>
       <Content>
         <Description>
-          &nbsp;&nbsp;&nbsp;&nbsp;Sou um desenvolvedor que adora ficar horas programando e encontrando soluções para problemas complexos. <br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;Formado pelo bootcamp da Labenu, estou apto para os desafios da programação. Durante o bootcamp passei por
+          Sou um desenvolvedor que adora ficar horas programando e encontrando soluções para problemas complexos. <br/>
+          Formado pelo bootcamp da Labenu, estou apto para os desafios da programação. Durante o bootcamp passei por
           1000 horas de programação em um ambiente que simula o meio profissional. Utilizamos as ferramentas
           mais atuais do mercado, desenvolvendo projetos individuais e em equipe.
         </Description>

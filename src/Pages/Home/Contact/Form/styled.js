@@ -13,27 +13,27 @@ export const Content = styled.form`
 const Input = styled.input`
   outline: none;
   text-decoration: none;
-  border: 1px solid white;
+  border: 1px solid #C5C5C5;
   padding-left: 10px;
   color: #000312;
   
   transition: box-shadow 0.3s;
   :hover {
-    box-shadow: 0 0 5px #000312;
+    box-shadow: 0 0 10px #C5C5C5;
   }
   
   :focus {
-    box-shadow: 0 0 5px #031f87;
+    box-shadow: 0 0 3px white;
   }
 `
 
 export const Name = styled(Input)`
-  width: 33%;
+  width: 39%;
   height: 40px;
 `
 
 export const Email = styled(Input)`
-  width: 66%;
+  width: 60%;
   height: 40px;
 `
 
@@ -41,17 +41,17 @@ export const Message = styled.textarea`
   width: 100%;
   height: 225px;
   outline: none;
-  border: 1px solid white;
+  border: 1px solid #C5C5C5;
   padding-left: 10px;
   padding-top: 5px;
   color: #000312;
   transition: box-shadow 0.3s;
   :hover {
-    box-shadow: 0 0 5px #000312;
+    box-shadow: 0 0 10px #C5C5C5;
   }
 
   :focus {
-    box-shadow: 0 0 5px #031f87;
+    box-shadow: 0 0 3px white;
   }
 `
 
@@ -59,13 +59,15 @@ export const Button = styled.button`
   width: 100%;
   height: 40px;
   border: none;
-  background-color: #000312;
-  color: white;
+  background-color: white;
+  color: #000312;
   transition: opacity 0.3s;
-  :hover{
-    opacity: 90%;
+
+  :hover {
+    opacity: 80%;
   }
-  :active{
+
+  :active {
     opacity: 98%;
   }
 `

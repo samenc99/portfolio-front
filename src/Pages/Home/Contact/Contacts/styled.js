@@ -9,17 +9,17 @@ export const Content = styled.div`
 
 export const Name = styled.p`
   font-size: 30px;
-  color: #000312;
+  color: white;
   font-weight: bold;
 `
 
 export const Profession = styled.p`
   font-size: 14px;
-  color: #000418;
+  color: white;
 `
 
 export const P = styled.p`
-  color: #000311;
+  color: white;
   margin-top: 15px;
 `
 
