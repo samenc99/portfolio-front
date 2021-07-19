@@ -19,11 +19,5 @@ const projects = [
 ]
 
 export const render = ()=>{
-  // return projects.map(project=> <Card project={project}/> )
-  return projects.map(project=>{
-    return <>
-      <Card project={project}/><Card project={project}/><Card project={project}/><Card project={project}/>
-      <Card project={project}/><Card project={project}/><Card project={project}/><Card project={project}/>
-    </>
-  })
+  return projects.map(project=> <Card project={project}/> )
 }

@@ -18,4 +18,5 @@ export const Title = styled.p`
   align-items: center;
   color: white;
   font-weight: bold;
+  font-size: 18px;
 `
