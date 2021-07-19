@@ -2,6 +2,7 @@ import {BrowserRouter, Switch, Route} from "react-router-dom";
 import {HOME, PORTFOLIO} from "./urlRoutes";
 import React from 'react'
 import {Home} from "../Pages/Home/Home";
+import {Portfolio} from "../Pages/Portfolio/Portfolio";
 
 export const Routes = ()=>{
   return (
@@ -11,7 +12,7 @@ export const Routes = ()=>{
           <Home/>
         </Route>
         <Route exact path={PORTFOLIO}>
-          <div>portfolio</div>
+          <Portfolio/>
         </Route>
 
       </Switch>

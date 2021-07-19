@@ -4,7 +4,7 @@ import {Skills} from "./Skills/Skills";
 
 export const Info = ()=>{
   return(
-    <Container>
+    <Container id={'home'}>
       <Perfil>
         <Photo src={PhotoUrl}/>
         <Name>Samuel Pires Mateus</Name>

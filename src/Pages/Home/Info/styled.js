@@ -62,7 +62,7 @@ export const Description = styled.p`
 
 export const Ul = styled.ul`
   padding: 0 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 `
 
 export const Li = styled.li`

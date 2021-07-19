@@ -5,7 +5,7 @@ import {Contact} from "./Contact/Contact";
 
 export const Home = ()=>{
   return <div>
-    <Header/>
+    <Header page={'home'}/>
     <Info/>
     <Trajectory/>
     <Contact/>
