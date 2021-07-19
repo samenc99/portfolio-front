@@ -1,10 +1,11 @@
 import {useHistory} from 'react-router-dom'
-import {HOME, PORTFOLIO} from "../Routes/urlRoutes";
+import {CONTACT, HOME, PORTFOLIO} from "../Routes/urlRoutes";
 
 export const useCoordinator = ()=>{
   const history = useHistory()
   const toHome = ()=>history.push(HOME)
   const toPortfolio = ()=>history.push(PORTFOLIO)
+  const toContact = ()=>history.push(CONTACT)
 
-  return {toHome, toPortfolio}
+  return {toHome, toPortfolio,toContact}
 }

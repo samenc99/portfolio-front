@@ -16,6 +16,15 @@ const Input = styled.input`
   border: 1px solid white;
   padding-left: 10px;
   color: #000312;
+  
+  transition: box-shadow 0.3s;
+  :hover {
+    box-shadow: 0 0 5px #000312;
+  }
+  
+  :focus {
+    box-shadow: 0 0 5px #031f87;
+  }
 `
 
 export const Name = styled(Input)`
@@ -34,7 +43,16 @@ export const Message = styled.textarea`
   outline: none;
   border: 1px solid white;
   padding-left: 10px;
+  padding-top: 5px;
   color: #000312;
+  transition: box-shadow 0.3s;
+  :hover {
+    box-shadow: 0 0 5px #000312;
+  }
+
+  :focus {
+    box-shadow: 0 0 5px #031f87;
+  }
 `
 
 export const Button = styled.button`
@@ -43,4 +61,11 @@ export const Button = styled.button`
   border: none;
   background-color: #000312;
   color: white;
+  transition: opacity 0.3s;
+  :hover{
+    opacity: 90%;
+  }
+  :active{
+    opacity: 98%;
+  }
 `
