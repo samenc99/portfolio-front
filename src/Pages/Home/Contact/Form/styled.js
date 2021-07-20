@@ -37,7 +37,7 @@ export const Email = styled(Input)`
   height: 40px;
 `
 
-export const Message = styled.textarea`
+export const Text = styled.textarea`
   width: 100%;
   height: 225px;
   outline: none;
