@@ -6,8 +6,8 @@ export const Contact = ()=>{
   return(
     <Content id={'contact'}>
       <Title>CONTATO</Title>
-      <Form/>
       <Contacts/>
+      <Form/>
     </Content>
   )
 }

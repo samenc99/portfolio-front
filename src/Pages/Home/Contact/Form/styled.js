@@ -8,6 +8,9 @@ export const Content = styled.form`
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
+  @media(max-width: 420px){
+    padding: 0 20px;
+  }
 `
 
 const Input = styled.input`
@@ -25,6 +28,7 @@ const Input = styled.input`
   :focus {
     box-shadow: 0 0 3px white;
   }
+  margin-bottom: 10px;
 `
 
 export const Name = styled(Input)`
@@ -53,6 +57,7 @@ export const Text = styled.textarea`
   :focus {
     box-shadow: 0 0 3px white;
   }
+  margin-bottom: 10px;
 `
 
 export const Button = styled.button`
@@ -70,6 +75,7 @@ export const Button = styled.button`
   :active {
     opacity: 98%;
   }
+  margin-bottom: 10px;
 `
 
 export const Modal = styled.div`

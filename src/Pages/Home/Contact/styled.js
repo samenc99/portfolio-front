@@ -8,6 +8,11 @@ export const Content = styled.section`
   grid-template-rows: 30px 1fr;
   background-color: #00082A;
   box-shadow: 0 0 5px #00082A;
+  @media(max-width: 420px){
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
 `
 
 export const Title = styled.p`
