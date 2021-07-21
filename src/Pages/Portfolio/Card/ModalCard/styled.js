@@ -20,11 +20,9 @@ export const Container = styled.div`
 export const Description = styled.div`
   color: white;
   flex: ${props => props.display? '1': '0'};
-  max-height: 400px;
   padding: 30px;
   transition: flex 1s;
   overflow: hidden;
-  
 `
 
 export const P = styled.p`

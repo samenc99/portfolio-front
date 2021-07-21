@@ -30,6 +30,9 @@ export const Container = styled.article`
   }
   border-radius: 3px;
   overflow: hidden;
+  @media(max-width: 420px){
+    display: ${props=>props.modal? 'none' : 'flex'};
+  }
 `
 
 

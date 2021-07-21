@@ -22,7 +22,7 @@ export const Card = ({project})=>{
 
 export const CardModal = ({project})=>{
   return (
-    <Container>
+    <Container modal={true}>
       <img src={project.imgUrl} alt=""/>
       <p>{project.description}</p>
     </Container>
