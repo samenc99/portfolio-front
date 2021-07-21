@@ -5,7 +5,8 @@ export const Container = styled.main`
   width: 100%;
   height: calc(100vh - 80px);
   padding: 30px 0 ;
-  
+  display: flex;
+  justify-content: center;
   overflow-y: auto;
 `
 

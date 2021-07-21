@@ -71,3 +71,15 @@ export const Button = styled.button`
     opacity: 98%;
   }
 `
+
+export const Modal = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: rgba(255,255,255,0.8);
+`
