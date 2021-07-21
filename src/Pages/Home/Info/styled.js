@@ -39,6 +39,11 @@ export const Photo = styled.img`
   @media(max-width: 420px){
     width: 100px;
     height: 100px;
+    :hover{
+      width: 100px;
+      height: 100px;
+      border: none;
+    }
   }
 `
 

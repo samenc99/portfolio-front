@@ -32,7 +32,7 @@ export const DivImg = styled.div`
   }
   @media(max-width: 420px){
     height: 50px;
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 20px;
   }
 `

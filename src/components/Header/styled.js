@@ -7,7 +7,6 @@ export const MyMenuIcon = styled(MenuIcon)`
   display: none;
   margin-right: 30px;
   margin-top: ${props=>props.show?'-20px': '0'};
-  
 `
 
 export const DivMenuIcon = styled.div`
@@ -33,7 +32,7 @@ export const Container = styled.header`
     height: auto;
     min-height: 40px;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     justify-content: center;
     >nav{
       transition: all 1s;

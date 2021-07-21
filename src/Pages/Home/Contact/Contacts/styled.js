@@ -53,4 +53,7 @@ export const DivImg = styled.div`
   @media(max-width: 420px) {
     margin-bottom: 10px;
   }
+  >a{
+    cursor: pointer;
+  }
 `
