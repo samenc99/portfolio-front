@@ -7,7 +7,7 @@ export const Content = styled.form`
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 10px 50px;
   @media(max-width: 420px){
     padding: 0 20px;
   }
