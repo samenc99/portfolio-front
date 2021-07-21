@@ -4,7 +4,7 @@ export const Container = styled.article`
   min-width: 300px;
   min-height: 400px;
   max-width: 300px;
-  min-height: 400px;
+  max-height: 400px;
   margin: 0 15px 20px 15px;
   display: flex;
   flex-direction: column;
