@@ -22,7 +22,7 @@ export const Skill = styled.div`
     display: none;
     color: white;
   }
-  :hover{
+  :hover,:active{
     transform: scale(1.6);
     >p{
       display: block;

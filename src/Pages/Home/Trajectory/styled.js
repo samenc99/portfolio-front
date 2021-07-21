@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import ufsc from '../../../assets/ufsc.png'
+
 
 export const Content = styled.section`
   width: 100%;
@@ -10,10 +12,13 @@ export const Content = styled.section`
 
 export const Article = styled.article`
   width: 100%;
-  height: 200px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-bottom: 50px;
+  @media(max-width: 420px){
+    display: block;
+    margin-bottom: 10px;
+  }
 `
 
 export const DivImg = styled.div`
@@ -23,7 +28,12 @@ export const DivImg = styled.div`
   align-items: center;
   justify-content: center;
   >img{
-    height: 200px;
+    height: 100%;
+  }
+  @media(max-width: 420px){
+    height: 50px;
+    justify-content: end;
+    padding-right: 20px;
   }
 `
 
@@ -35,4 +45,7 @@ export const Text = styled.p`
   display: flex;
   align-items: center;
   color: #000312;
+  @media(max-width: 420px){
+    padding: 0 20px;
+  }
 `
