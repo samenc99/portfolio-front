@@ -1,4 +1,13 @@
 import styled from 'styled-components'
+import MenuIcon from '@material-ui/icons/Menu';
+
+export const MyMenuIcon = styled(MenuIcon)`
+  transform: scale(1.3);
+  color: white;
+  display: none;
+  margin-right: 30px;
+  margin-top: ${props=>props.show?'-20px': '0'};
+`
 
 export const Container = styled.header`
   width: 100%;
@@ -6,32 +15,27 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-right: 30px;
-  //background-image: linear-gradient(#00051d, #00082b);
   background-image: linear-gradient(#000310, #00051d);
-
   > nav {
     display: flex;
     align-items: center;
   }
-
   position: sticky;
   top: 0;
-  //@media (max-width: 420px){
-  //  position: fixed;
-  //  z-index: 100;
-  //  width: 100vw;
-  //  height: 300px;
-  //  background-color: white;
-  //  right: 0;
-  //  >nav{
-  //    flex-direction: column;
-  //    width: 100%;
-  //    > a{
-  //      margin-bottom: 20px;
-  //    }
-  //  }
-  //}
+  @media(max-width: 420px){
+    height: auto;
+    min-height: 40px;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    >nav{
+      transition: all 1s;
+      width: ${props=>props.show?'100%': '0px'};
+      height: ${props=>props.show?'150px': '0px'};
+      flex-direction: column;
+      overflow: hidden;
+    }
+  }
 `
 
 export const Logo = styled.img`
