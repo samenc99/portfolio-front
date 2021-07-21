@@ -28,4 +28,5 @@ export const Skill = styled.div`
       display: block;
     }
   }
+  margin-bottom: 10px;
 `

@@ -17,6 +17,21 @@ export const Container = styled.header`
 
   position: sticky;
   top: 0;
+  //@media (max-width: 420px){
+  //  position: fixed;
+  //  z-index: 100;
+  //  width: 100vw;
+  //  height: 300px;
+  //  background-color: white;
+  //  right: 0;
+  //  >nav{
+  //    flex-direction: column;
+  //    width: 100%;
+  //    > a{
+  //      margin-bottom: 20px;
+  //    }
+  //  }
+  //}
 `
 
 export const Logo = styled.img`
@@ -25,6 +40,9 @@ export const Logo = styled.img`
     opacity: 80%;
   }
   cursor: pointer;
+  @media (max-width: 420px){
+    display: none;
+  }
 `
 
 export const Button = styled.button`

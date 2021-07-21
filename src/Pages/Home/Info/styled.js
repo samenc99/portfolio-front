@@ -5,6 +5,10 @@ export const Container = styled.section`
   background-image: linear-gradient(#00051d,#00082b);
   display: grid;
   grid-template-columns: 400px 1fr;
+  @media(max-width: 420px){
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export const Perfil = styled.article`
@@ -15,6 +19,9 @@ export const Perfil = styled.article`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media(max-width: 420px){
+    height: 200px;
+  }
 `
 
 export const Photo = styled.img`
@@ -29,6 +36,10 @@ export const Photo = styled.img`
     border: 4px solid black;
   }
   border-radius: 200px;
+  @media(max-width: 420px){
+    width: 100px;
+    height: 100px;
+  }
 `
 
 export const Name = styled.p`
@@ -52,6 +63,9 @@ export const Content = styled.article`
   justify-content: center;
   flex-direction: column;
   padding: 50px;
+  @media(max-width: 420px){
+    padding: 20px;
+  }
 `
 
 export const Description = styled.p`
