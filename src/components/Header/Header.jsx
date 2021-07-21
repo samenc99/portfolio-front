@@ -4,9 +4,13 @@ import {HOME, PORTFOLIO, CONTACT} from "../../Routes/urlRoutes";
 import {useState} from 'react'
 
 export const Header = ({page})=>{
-  const [showMenuMobile, setShowMenuMobile] = useState(false);
+  const [showMenuMobile, setShowMenuMobile] = useState(0);
 
-  console.log({showMenuMobile})
+  const setShow = ()=>{
+    if(showMenuMobile)setShowMenuMobile(0)
+    else setShowMenuMobile(1)
+  }
+
   return(
     <Container show={showMenuMobile}>
       <nav>
@@ -17,7 +21,7 @@ export const Header = ({page})=>{
       </nav>
       <DivMenuIcon>
         <MyMenuIcon
-          onClick={()=>setShowMenuMobile(!showMenuMobile)}
+          onClick={setShow}
           show={showMenuMobile}
         />
       </DivMenuIcon>

@@ -48,7 +48,7 @@ export const Contacts = ()=>{
             <Img src={whatsapp} alt={'whatsapp'} />
           </a>
         )}
-        <a target={'_blank'} href={'mailto:mateus.enc@gmail.com?'}>
+        <a href={'mailto:mateus.enc@gmail.com?'} target={'_blank'}>
           <Img src={gmail} alt={'gmail'} />
         </a>
       </DivImg>
