@@ -7,6 +7,13 @@ export const MyMenuIcon = styled(MenuIcon)`
   display: none;
   margin-right: 30px;
   margin-top: ${props=>props.show?'-20px': '0'};
+  
+`
+
+export const DivMenuIcon = styled.div`
+  @media(min-width: 421px){
+    display: none;
+  }
 `
 
 export const Container = styled.header`

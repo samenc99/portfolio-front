@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.article`
-  width: 300px;
-  height: 400px;
+  min-width: 300px;
+  min-height: 400px;
+  max-width: 300px;
+  min-height: 400px;
   margin: 0 15px 20px 15px;
   display: flex;
   flex-direction: column;
@@ -22,7 +24,6 @@ export const Container = styled.article`
     text-align: justify;
     color: #000312;
   }
-  position: relative;
   transition: box-shadow 1s;
   :hover{
     box-shadow: 0 0 40px #000312;

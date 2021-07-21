@@ -1,4 +1,4 @@
-import {Button, ButtonOutlined, Container, Logo, MyMenuIcon} from "./styled";
+import {Button, ButtonOutlined, Container, Logo, MyMenuIcon, DivMenuIcon} from "./styled";
 import LogoUrl from '../../assets/logo.png'
 import {HOME, PORTFOLIO, CONTACT} from "../../Routes/urlRoutes";
 import {useState} from 'react'
@@ -15,10 +15,12 @@ export const Header = ({page})=>{
         <a href={CONTACT}><ButtonOutlined>CONTATO</ButtonOutlined></a>
         <a href={HOME}><Logo src={LogoUrl} /></a>
       </nav>
-      <MyMenuIcon
-        onClick={()=>setShowMenuMobile(!showMenuMobile)}
-        show={showMenuMobile}
-      />
+      <DivMenuIcon>
+        <MyMenuIcon
+          onClick={()=>setShowMenuMobile(!showMenuMobile)}
+          show={showMenuMobile}
+        />
+      </DivMenuIcon>
     </Container>
   )
 }

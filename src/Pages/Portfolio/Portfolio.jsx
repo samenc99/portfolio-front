@@ -1,5 +1,5 @@
 import {Header} from "../../components/Header/Header";
-import {Container, Content} from "./styled";
+import {Container, Content, All} from "./styled";
 import {Project} from "../../model/project";
 import {useEffect, useState} from "react";
 import {api} from "../../services/api";
@@ -29,7 +29,7 @@ export const Portfolio = ()=>{
   }
 
   return(
-    <>
+    <All>
       <Header/>
       <Container>
         {loading? (
@@ -40,6 +40,6 @@ export const Portfolio = ()=>{
           </Content>
         )}
       </Container>
-    </>
+    </All>
   )
 }
