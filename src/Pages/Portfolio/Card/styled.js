@@ -33,6 +33,7 @@ export const Container = styled.article`
   @media(max-width: 420px){
     display: ${props=>props.modal? 'none' : 'flex'};
   }
+  cursor: ${props=>props.modal? 'default' : 'pointer'};
 `
 
 
